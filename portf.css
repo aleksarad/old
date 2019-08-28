@@ -408,3 +408,54 @@ and (orientation : portrait),
   margin: 0px 5% 0 5%;
   }
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 812px)
+and (orientation : portrait) {
+
+  nav li {
+    font-size: 25px;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  #email {
+    margin-top: 17px;
+  }
+
+  #email img {
+    width: 35px;
+  }
+
+   p {
+    font-size:15px;
+  } 
+
+  #lightsout {
+    display:none;
+  }
+
+  .slider {
+    display:none;
+  }
+
+  #pheader {
+    margin-bottom: 2%;
+    margin-top: 80px;
+    font-size:30px;
+  }
+
+    button {
+    height: 45px;
+    width: 80px;
+    font-size:22px;
+  }
+
+     article ul li {
+    font-size:15px;
+    text-align: justify;
+  }
+}
