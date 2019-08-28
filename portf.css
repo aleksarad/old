@@ -432,15 +432,15 @@ and (orientation : portrait) {
   }
 
   h1 {
-    font-size: 75px;
+    font-size: 100px;
   }
   
   h2:first-of-type {
-      font-size: 45px;
+      font-size: 60px;
     }
     
   #aboutp {
-    font-size:35px;
+    font-size:37px;
     text-align: justify;
   }   
     
@@ -454,7 +454,7 @@ and (orientation : portrait) {
 
   #pheader {
     margin-bottom: 2%;
-    margin-top: 80px;
+    margin-top: 100px;
     font-size:80px;
   }
 
