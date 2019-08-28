@@ -114,11 +114,11 @@ a:hover {
 /*ABOUT*/
 
 main {
-  padding-top:15%;
+  padding-top:16%;
 }
 
 .about {
-  height: 61vh;
+  height: 65vh;
   margin:0 23%;
   text-align: center;
 }
@@ -126,7 +126,7 @@ main {
 h1{
   margin: 20px 0 10px 0;
   letter-spacing: 1.5px;
-  font-size: 33px;
+  font-size: 38px;
   font-weight:400;
   text-shadow:1px 2px 7px rgb(135, 135, 135);
 }
@@ -134,7 +134,7 @@ h1{
 
 h2:first-of-type {
   margin: 5px 0 40px 0;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #lightsout {
@@ -144,11 +144,9 @@ h2:first-of-type {
 }
 
 p {
-font-weight: 300;
-font-size: 18px;
-line-height: 22px;
-/* text-align:justify;
-text-indent: 15%; */
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 
@@ -158,7 +156,7 @@ text-indent: 15%; */
 #pheader {
   text-align:center;
   margin: 5% 0;
-  font-size: 27px;
+  font-size: 30px;
   text-shadow:1px 2px 7px rgb(135, 135, 135);
   font-weight:300;
 }
@@ -214,7 +212,7 @@ article ul li {
   font-weight: 300;
   margin: 10px;
   text-align: justify;
-  font-size:15px;
+  font-size:16px;
 }
 
 article h3 {
@@ -381,16 +379,18 @@ and (max-device-width : 812px)
 and (orientation : portrait),
 (max-width: 800px)
 {
+
   .about {
     height: auto;
-    margin: 17% 10%;
+    margin: 15% 8%;
   }
 
   .projects {
     display:flex;
     flex-direction: column;
   }
- 
+
+  
   article {
     margin-bottom: 12%;
   }
@@ -400,12 +400,14 @@ and (orientation : portrait),
     height:300px;
   }
 
+
   article ul {
     padding: 0 10%;
   }
 
   #portcode {
   margin: 0px 5% 0 5%;
+  text-align:center;
   }
 }
 
@@ -415,23 +417,29 @@ and (max-device-width : 812px)
 and (orientation : portrait) {
 
   nav li {
-    font-size: 25px;
+    font-size: 43px;
   }
 
   nav {
-    height: 70px;
+    height: 100px;
   }
 
   #email {
-    margin-top: 17px;
+    margin-top: 23px;
   }
 
   #email img {
-    width: 35px;
+    width: 58px;
   }
 
-   p {
-    font-size:15px;
+  h1 {
+    font-size: 110px;
+  }
+  
+  p {
+    font-size:17px;
+    text-align:justify;
+    margin-top:90px;
   } 
 
   #lightsout {
@@ -445,17 +453,30 @@ and (orientation : portrait) {
   #pheader {
     margin-bottom: 2%;
     margin-top: 80px;
+    font-size:85px;
+  }
+
+  .projects img {
+    width:600px;
+    height:550px;
+  }
+
+  button {
+    height: 60px;
+    width: 110px;
     font-size:30px;
   }
 
-    button {
-    height: 45px;
-    width: 80px;
-    font-size:22px;
+  article h3 {
+    font-size: 28px;
   }
 
-     article ul li {
-    font-size:15px;
+  article ul li {
+    font-size:17px;
     text-align: justify;
+  }
+
+  #portcode {
+    font-size: 25px;
   }
 }
