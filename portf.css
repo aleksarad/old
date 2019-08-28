@@ -143,7 +143,7 @@ h2:first-of-type {
   font-weight:400;
 }
 
-p {
+#aboutp {
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
@@ -433,15 +433,15 @@ and (orientation : portrait) {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 75px;
   }
   
   h2:first-of-type {
-      font-size: 40px;
+      font-size: 45px;
     }
     
-  p {
-    font-size:30px;
+  #aboutp {
+    font-size:35px;
     text-align: justify;
   }   
     
@@ -456,7 +456,7 @@ and (orientation : portrait) {
   #pheader {
     margin-bottom: 2%;
     margin-top: 80px;
-    font-size:85px;
+    font-size:80px;
   }
 
   .projects img {
