@@ -431,19 +431,7 @@ and (orientation : portrait) {
   #email img {
     width: 58px;
   }
-
-  h1 {
-    font-size: 80px;
-  }
     
-  h2:first-of-type {
-     font-size: 50px;
-  }
-    
-  p {
-    font-size:20px;
-    text-align:justify;
-    margin-top:90px;
   } 
 
   #lightsout {
