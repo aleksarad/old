@@ -381,55 +381,16 @@ and (max-device-width : 812px)
 and (orientation : portrait),
 (max-width: 800px)
 {
-  nav li {
-    font-size: 20px;
-  }
-
-  nav {
-    height: 70px;
-  }
-
-  #email {
-    margin-top: 17px;
-  }
-
-  #email img {
-    width: 35px;
-  }
   .about {
     height: auto;
     margin: 17% 10%;
-  }
-
-  p {
-    font-size:15px;
-  } 
-
-  #lightsout {
-    display:none;
-  }
-
-  .slider {
-    display:none;
-  }
-
-  #pheader {
-    margin-bottom: 2%;
-    margin-top: 80px;
-    font-size:30px;
   }
 
   .projects {
     display:flex;
     flex-direction: column;
   }
-
-  button {
-    height: 45px;
-    width: 80px;
-    font-size:22px;
-  }
-  
+ 
   article {
     margin-bottom: 12%;
   }
@@ -437,11 +398,6 @@ and (orientation : portrait),
   .projects img {
     width:350px;
     height:300px;
-  }
-
-  article ul li {
-    font-size:15px;
-    text-align: justify;
   }
 
   article ul {
